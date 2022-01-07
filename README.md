@@ -11,9 +11,9 @@ To run the image, you can use the following command:
 docker run -d --name svn-webdav --restart always \
 -p 8888:80 \
 -v svn-config:/srv/svn/conf.d \
--v $PWD./repos:/srv/svn/repos rvva/svn-webdav:latest
+-v $PWD/repos:/srv/svn/repos rvva/svn-webdav:latest
 ```
-Where volume mount ```$pwd/repos``` is location for new or existing repositories.
+Where volume mount ```$PWD/repos``` is location for new or existing repositories.
 
 ### Compose
 Example usage with docker-compose:

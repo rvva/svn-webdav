@@ -1,2 +1,2 @@
 # svn-webdav
-Based on Alpine Linux lightweight container providing SVN Webdav server.
+Webdav Apache Subversion server based on Alpine Linux.

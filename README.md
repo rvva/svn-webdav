@@ -1,6 +1,6 @@
 # SVN-webdav
 
-Lightweight Webdav Apache Subversion server container based on Alpine Linux. The access to the server is possible only via WebDav protocol (http://).
+Lightweight Webdav Apache Subversion server container based on Alpine Linux. The access to the repositories is possible via WebDav protocol (http://).
 
 ## How to use this image.
 

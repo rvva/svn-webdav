@@ -1,4 +1,4 @@
-FROM httpd:alpine3.15
+FROM httpd:alpine3.18
 
 RUN apk add --no-cache apache2 apache2-utils apache2-webdav mod_dav_svn apache2-ssl \
   && apk add --no-cache subversion \
